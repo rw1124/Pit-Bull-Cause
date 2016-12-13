@@ -1,0 +1,37 @@
+body {
+  font-family: 'lato', sans-serif;
+  padding : 2em;
+ 
+background: #F7F1F1; 
+background: -moz-linear-gradient(top,  #F7F1F1 0%, #f7F1F1 50%, #f7F1F1 56%, #bf6e4e 100%); 
+background: -webkit-linear-gradient(top,  #F7F1F1 0%,#f7F1F1 50%,#f7F1F1 56%,#bf6e4e 100%); 
+background: linear-gradient(to bottom,  #F7F1F1 0%,#f7F1F1 50%,#f7F1F1 56%,#bf6e4e 100%); 
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f0b7a1', endColorstr='#bf6e4e',GradientType=0 ); 
+
+padding: 40px 80px 80px 80px;
+}
+
+p {
+	font-family: verdana; sans-serif; 
+	text-decoration: none;
+}
+
+.active {
+    background-color: #e8a66d;
+}
+
+.floating-box {
+    display: inline-block;
+    
+
+}
+
+.footer {
+  position: bottom;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  background-color: #efefef;
+  text-align: center;
+}
